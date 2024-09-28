@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 153px;
+    width: 100%;
+    background-color: #9b42cd;
+    position: fixed;
+    z-index: 1;
+}
+#home{
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+#home img{
+    height: 65px;
+    margin-top:30px;
+}
+#list{
+    height: 65px;
+    width: 80%;
+    margin-top: 60px;
+}
+ul li{
+    display: inline;
+    color: white;
+    /* font-family: "Roboto" sans-serif; */
+    width: fit-content;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+#h{
+    text-decoration: underline;
+}
+svg{
+    height: 10px;
+    width: 10px;
+    fill:#aaaaaa;
+}
+li:hover{
+    text-decoration: underline;
+}
+#image{
+    height: 804px;
+    width: 1401px;
+    border: solid;
+    margin-left: 12px;
+    border-radius: 20px 20px 40px 40px;
+    /* display: flex;
+    animation-name: moveon;
+    animation-duration: 2s; */
+}
+/* @keyframes moveon {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+} */
+#image img{
+    width: fit-content;
+    border-radius: 20px 20px 40px 40px;
+}
+#firstpage{
+    height: 1150px;
+    width: 100%;
+    padding-top: 153px;
+    background-color: #9b42cd;
+}
+#fourdivs{
+    width: 100%;
+    height: 163px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    margin-top: -85px;
+
+}
+.info{
+    height:163px;
+    width: 355px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 22px 0px rgba(211, 211, 211, 0.25);
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    margin:30px 6px 2px 32px ;
+    border-radius: 5px;
+    background-color: #eceae3;
+}
+.info h2{
+    margin-left:28px ;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.logo img{
+    width: fit-content;
+    padding: 15px;
+}
+.line{
+    width: 170px;
+    border:#eceae3 dashed;
+    margin-top: -40px 0px 0px 100px;
+}
+.number{
+    height: 2px;
+    width: 2px;
+}
+.number img{
+    padding-left: 270px;
+    margin-top: -80px;
+}
+#page2{
+    height: 729px;
+    width: 100%;
+    display: flex;
+}
+#since{
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.549);
+    z-index: 0;
+    position: absolute; /* Set position to absolute */
+    margin-top: 500px;
+    margin-left: 1200px;
+}
+#since h1{
+    margin:  70px 0px 0px 50px;
+    color:#c7a17e;
+}
+#since p{
+    margin:  15px 0px 0px 70px;
+    font-size: 25px;
+    color: white;
+}
+.page2small{
+    height: 490px;
+    width: 50%;
+    margin: 130px 0px;
+    position: relative;
+  
+}
+#page2img{
+    height: 489px;
+    width: 576px;
+    z-index: -1;
+    position: relative;
+}
+.page2small h4,h3,p,button{
+    margin-left:290px ;
+    margin-top: -31px;
+}
+#logo{
+    margin-left:250px ;
+    margin-top: 95px;
+}
+.page2small h3{
+    margin-left:255px ;
+    margin-top: 15px;
+    font-size: 45px;
+    width: 450px;
+    height: 100px;
+}
+.page2small p{
+    margin-left:255px ;
+    margin-top: 7px;
+    width: 500px;
+    height: 100px;
+    color: #eceae3;
+}
+.page2small button{
+    margin-left:255px ;
+    margin-top: 7px;
+    width: 169px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #c07ac7;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#products{
+    height: 104px;
+    width: 100%;
+    display: flex;
+    padding-left: 250px;
+
+}
+.divisions{
+    height: 100%;
+    width: 40%;
+}
+.divisions h2{
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 15px;
+}
+.divisions button{
+    width: 224px;
+    height: 56px;
+    background-color: #c07ac7;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 270px;
+    cursor: pointer;
+    border: none;
+}
+.divisions h1{
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+#items{
+    height: 880px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#itemssub{
+    height: 680px;
+    width: 80%;
+
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items{
+    width: 376px;
+    height: 300px;
+
+    margin-left: 20px;
+    box-shadow: 0px 1px 22px 0px rgba(211, 211, 211, 0.25);
+}
+.itemimg{
+    width: 356px;
+    height: 250px;
+    margin: 10px 10px 0px 10px;
+    cursor: pointer;
+}
+.imgsiz{
+    width: 346px;
+    height: 240px;
+}
+.imgsiz:hover{
+    width: 356px;
+    height: 250px;
+}
+.items pre{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#page3{
+    height: 390px;
+    width: 100%;
+    border: solid;
+}
+#page3 img{
+    height: 390px;
+    width: 100%;
+
+}
+#page4{
+    width: 100%;
+    height: 660px;
+}
+#page4div{
+    width: 85%;
+    height: 460px;
+    margin:100px 150px;
+    display: flex;
+    overflow: hidden;
+}
+#page4div img{
+    width: fit-content;
+    border: none;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-1270px);
+    }
+    100%{
+        transform: translateX(-2540px);
+    }
+
+}
+#middle{
+    height: 100px;
+    width: 100%;
+    background-color: #9b42cd;
+}
+#footer{
+    height: 640px;
+    width: 100%;
+    background-color: #9b42cd;
+    display: flex;
+    justify-content: space-around;
+}
+.bottomdiv{
+    height: 640px;
+    width: 300px;
+}
+.bottomdiv img{
+    width: 290px;
+}
+.bottomdiv p{
+    width: 290px;
+    margin:10px 5px;
+    cursor: pointer;
+}
+#logomain{
+    width: 150px;
+    height:50px ;
+    display: flex;
+}
+.logodiv{
+    height: 50px;
+    width: 50px;
+    
+}
+.logodiv img{
+    width: fit-content;
+    cursor: pointer;
+}
+.bottomdiv h3{
+    margin:10px 0px 0px 0px;
+
+}
+#copy{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+#copy p{
+    padding-top: 15px;
+    padding-left: 180px;
+    
+}
+#copy h3{
+    padding-top: 12px;
+    padding-left: 676px;
+    color: #c7a17e;
+}
